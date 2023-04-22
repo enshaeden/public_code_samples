@@ -72,7 +72,7 @@ def make_post_request(endpoint, body):
     username = jssAuth.username
     password = jssAuth.password
     # Log into JAMF and make sure its working
-    base = "https://gozer.lyft-corp.net:8443/JSSResource"
+    base = "https://jamf.url.com:###/JSSResource"
     # Concatinate endpoint and base URL
     url = f"{base}{endpoint}"
     # Change the HTTPD header to be application/xml
@@ -95,7 +95,7 @@ def make_delete_request(endpoint):
     username = jssAuth.username
     password = jssAuth.password
     # Log into JAMF and make sure its working
-    base = "https://gozer.lyft-corp.net:8443/JSSResource"
+    base = "https://jamf.url.com:####/JSSResource"
     # Concatinate endpoint and base URL
     url = f"{base}{endpoint}"
     # Change the HTTPD header to be application/xml
